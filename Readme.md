@@ -4,7 +4,7 @@ Built with middleman framework, because I like it and otherwise maintenance woul
 
 #To Use
 
-Save build/index.html to your system, run from your browser.
+Save build/index.html (https://raw.github.com/peck/diceware_password/master/build/index.html) to your system, run from your browser, enjoy better pass phrases.
 
 #To expand on
 
