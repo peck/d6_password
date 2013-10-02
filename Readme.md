@@ -1,6 +1,6 @@
 Quickly thrown together implementation of Diceware Passphrase(http://world.std.com/~reinhold/diceware.html) runable as a single page with no external needs. Single passphrase generation for less technical users.
 
-Built with middleman framework, because I like it and otherwise maintenance would suck
+Built with middleman framework, because I like it and otherwise maintenance would not be fun
 
 #To Use
 
