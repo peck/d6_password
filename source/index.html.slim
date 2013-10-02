@@ -1,0 +1,22 @@
+---
+title: Diceware-like Password Generator
+---
+.navbar
+  .navbar-inner
+    ul.nav
+      a.brand 
+        |Select Language
+      - ["en", "jp"].each do |lang|
+        li id="lang_#{lang}" class="lang #{'active' if lang == 'en'}"
+          a href="#" onclick="dice.select_language('#{lang}')"
+
+            | #{lang}
+
+.container#generation
+  .span12.text-center
+    button.btn.btn-large.btn-primary onclick="dice.populate_words()"
+      |Generate Passphrase
+  br
+  .span12
+    h2
+      p.text-center#words

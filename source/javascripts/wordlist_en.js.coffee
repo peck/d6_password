@@ -1,4 +1,5 @@
-wordlist =  {
+#To the extent that a word list is protected by copyright, A G Reinhold licenses its rights to the English Diceware Wordlist under the Creative Commons CC-BY 3.0 license.
+dice.wordlist_en = {
 	"11111":"a"
 	"11112":"a's"
 	"11113":"a-1"
@@ -7775,13 +7776,4 @@ wordlist =  {
 	"66664":"?"
 	"66665":"??"
 	"66666":"@"
-}
-
-populate_words = () =>
-    numbers = [0..24].map -> Math.floor(Math.random() * 6) + 1
-
-    slicelen = 5
-    document.getElementById("words").innerHTML = ""
-
-    document.getElementById("words").innerHTML += "#{wordlist[numbers[i...i+slicelen].join("")]} " for i in [0..numbers.length-1] by slicelen
-    
+    }
