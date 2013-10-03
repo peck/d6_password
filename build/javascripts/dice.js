@@ -1,5 +1,5 @@
 (function() {
-  dice.wordlist = dice.wordlist_jp;
+  dice.wordlist = dice.wordlist_en;
 
   Math.seedrandom();
 
