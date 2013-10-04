@@ -3,7 +3,7 @@ Quickly thrown together implementation of Diceware Passphrase(http://world.std.c
 Built with middleman framework, because I like it and otherwise maintenance would not be fun
 
 #Passphrase Strength
-Built using the seedrandom library (https://github.com/davidbau/seedrandom) for better random number generation. Will use the window.crypto function on modern browsers that *should* be the best case, but honestly I'm not familiar enough with this aspect to comment. Went with what seemed to be most recommened, again pull requests accepted.
+Built using the seedrandom library (https://github.com/davidbau/seedrandom) for better random number generation. Will use the window.crypto function on modern browsers that *should* be the best case, but honestly I'm not familiar enough with this aspect to comment. Went with what seemed to be most recommened, pull requests welcome if this is a terrible mistake.
 
 
 #To Use
