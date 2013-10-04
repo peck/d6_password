@@ -24,6 +24,8 @@ Yes it includes bootstrap, yes its overkill for this project. Give it the same l
 #Contributing
 Pull requests with other features/language support happily accepted. Code is simple and should be self explanatory in most cases
 
+#Thanks
+Hat tip to @thegrugq for pointing me at the algorithm and encouraging creation via twitter at 4am.
 
 #License
 BSD 3 clause where appropriate, code/right of others documented in their appropriate files
