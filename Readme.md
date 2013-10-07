@@ -28,4 +28,6 @@ Pull requests with other features/language support happily accepted. Code is sim
 Hat tip to @thegrugq for pointing me at the algorithm and encouraging creation via twitter at 4am.
 
 #License
+Copyright Pragmatic Research, LLC 2013
+
 BSD 3 clause where appropriate, code/right of others documented in their appropriate files
