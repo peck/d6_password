@@ -1,9 +1,9 @@
-Quickly thrown together implementation of Diceware Passphrase(http://world.std.com/~reinhold/diceware.html) as a single page with no external needs and running completely offline. Simple passphrase generation for less technical users.
+Quickly thrown together implementation of Diceware Passphrase(http://world.std.com/~reinhold/diceware.html) runable as a single page with no external needs. Single passphrase generation for less technical users.
 
 Built with middleman framework, because I like it and otherwise maintenance would not be fun
 
 #Passphrase Strength
-Built using the seedrandom library (https://github.com/davidbau/seedrandom) for better random number generation. Will use the window.crypto function on modern browsers that *should* be the best case for the platform, but honestly I'm not familiar enough with this aspect to say. Pull requests welcome if this is a terrible mistake.
+Built using the seedrandom library (https://github.com/davidbau/seedrandom) for better random number generation. Will use the window.crypto function on modern browsers that *should* be the best case, but honestly I'm not familiar enough with this aspect to comment. Went with what seemed to be most recommened, pull requests welcome if this is a terrible mistake.
 
 
 #To Use
@@ -28,6 +28,4 @@ Pull requests with other features/language support happily accepted. Code is sim
 Hat tip to @thegrugq for pointing me at the algorithm and encouraging creation via twitter at 4am.
 
 #License
-Copyright Pragmatic Research, LLC 2013
-
 BSD 3 clause where appropriate, code/right of others documented in their appropriate files
