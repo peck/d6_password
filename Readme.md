@@ -1,4 +1,4 @@
-Quickly thrown together implementation of Diceware Passphrase(http://world.std.com/~reinhold/diceware.html) runable as a single page with no external needs. Single passphrase generation for less technical users.
+Quickly thrown together implementation of Diceware Passphrase(http://world.std.com/~reinhold/diceware.html) as a single page to be used offline with no external dependencies. Simple passphrase generation for less technical users.
 
 Built with middleman framework, because I like it and otherwise maintenance would not be fun
 
